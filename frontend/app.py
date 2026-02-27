@@ -70,7 +70,7 @@ if page == "Prediction":
 
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/predict",
+                "https://titanic-survival-predictor-27ix.onrender.com",
                 json=data
             )
 
