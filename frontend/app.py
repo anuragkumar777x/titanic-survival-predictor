@@ -70,7 +70,7 @@ if page == "Prediction":
 
         try:
             response = requests.post(
-                "https://titanic-survival-predictor-27ix.onrender.com",
+                "https://titanic-survival-predictor-27ix.onrender.com/predict",
                 json=data
             )
 
